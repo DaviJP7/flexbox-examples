@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: #fff;
+    background: #25262c;
+}
+h1{
+    margin-bottom: 20px;
+}
+.__container{
+    text-align: center;
+}
+
+.red{
+    background-color: rgb(207, 47, 47);
+}
+.blue{
+    background-color: rgb(56, 56, 212);
+}
+.yellow{
+    background-color: rgb(209, 209, 61);
+}
+.green{
+    background-color: rgb(42, 170, 42);
+}
+
+hr{
+    margin: 20px 0;
+}

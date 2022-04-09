@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+    <style>
+
+        .__container{
+            display: flex;;
+        }
+
+        .d-row{
+            flex-direction: row;
+        }
+
+        .d-col{
+            flex-direction: column;
+        }
+
+        .d-row-reverse{
+            flex-direction: row-reverse;
+        }
+
+        .d-col-reverse{
+            flex-direction: column-reverse;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap div{
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flex Container</h1>
+
+    <h2>Flex Direction Row</h2>
+    <div class="__container">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+    <h2>Flex Direction Column</h2>
+    <div class="__container d-col">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+    <h2>Flex Direction Row Reverse</h2>
+    <div class="__container d-row-reverse">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+    <h2>Flex Direction Column Reverse</h2>
+    <div class="__container d-col-reverse">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+    <h1>Flex Wrap</h1>
+    <div class="__container wrap">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+
+</body>
+</html>

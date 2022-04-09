@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .__container {
+            display: flex;
+            max-width: 500px;
+            height: 300px;
+            background: #4444;
+        }
+        
+        .exemplo1 div{
+            width: 70px;
+            height: 70px;
+        }
+
+        .exemplo1{
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .exemplo2 div{
+            width: 200px;
+            height: 100px;
+        }
+
+        .exemplo2{
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .exemplo3 .green{
+            height: 50px;
+            align-self: flex-end;
+            width: 50px;
+            margin-left: 150px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Align</h1>
+    <h2>Exemplo 1</h2>
+    <div class="__container exemplo1">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+    <h2>Exemplo 2</h2>
+    <div class="__container exemplo2">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+    <hr>
+
+    <h2>Exemplo 3</h2>
+    <div class="__container exemplo2 exemplo3">
+        <div class="red">1</div>
+        <div class="blue">2</div>
+        <div class="yellow">3</div>
+        <div class="green">4</div>
+    </div>
+
+</body>
+
+</html>
